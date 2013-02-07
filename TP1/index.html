@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="messtyles.css" />
+	<title> INFOCOM </title>
+</head>
+
+<body>
+	<header>
+		<h1><b>INFOCOM</b> vente de matériel informatique</h1>
+	</header>
+	<hr size=1 width="100%" >
+	<nav>
+		<ul>
+			<li><a href="#disquesDurs">Disques durs</a></li>
+			<li><a href="#claviersSouris">Claviers et souris</a></li>
+			<li><a href="#divers">Divers</a></li>
+		</ul>
+	</nav>
+	
+	
+	<section>
+		<article>
+		<h3 id="disquesDurs"> Les disques durs </h3>
+		<table>
+			<tr>
+				<th>Produit</th>
+				<th>Prix</th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td>disque dur Seagate 500 Go</td>
+				<td>100€</td>
+				<td>taille 135x87x30, temps d'accès moyen 12ms</td>
+			</tr>
+			<tr>
+				<td>disque dur Western 750 Go</td>
+				<td>120€</td>
+				<td>taille 155x88x32, temps d'accès moyen 15ms</td>
+			</tr>
+			<tr>
+				<td>disque dur Externe 500 Go</td>
+				<td>115€</td>
+				<td>USB2, 2.5 pouces, taille 120x78x32, temps d'accès moyen 20ms</td>
+			</tr>
+		</table>
+		</article>
+		<article>
+		<h3 id="claviersSouris"> Les claviers et souris </h3>
+		<table>
+			<tr>
+				<th>Produit</th>
+				<th>Prix</th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td>clavier logitech</td>
+				<td>10€</td>
+				<td>filaire USB2, contrôles multimedia</td>
+			</tr>
+			<tr>
+				<td>souris logitech</td>
+				<td>12€</td>
+				<td>optique, filaire USB2</td>
+			</tr>
+			<tr>
+				<td>clavier souris sans fil</td>
+				<td>35€</td>
+				<td>récepteur USB2</td>
+			</tr>
+		</table>
+		</article>
+		<article>
+		<h3 id="divers"> Divers </h3>
+		<table>
+			<tr>
+				<th>Produit</th>
+				<th>Prix</th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td>enceintes 5W</td>
+				<td>30€</td>
+				<td>filaire USB2</td>
+			</tr>
+			<tr>
+				<td>tapis souris</td>
+				<td>5€</td>
+				<td></td>
+			</tr>
+		</table>
+		</article>
+	</section>
+	<section>
+		<article>
+			<h4>Formulaire</h4>
+			<form method="get">
+				<p>
+					<label for="nbDisques">Quantité de disque dur </label>
+					<input type="text" name="nbDisque" placeholder="nb disque"/><br/>
+					<select name="">
+						<option value="ddSeagate">disque dur Seagate 500 Go (100€)</option>
+						<option value="ddWestern">disque dur Western 750 Go (120€)</option>
+						<option value="ddExterne">disque dur Externe 500 Go (115€)</option>
+					</select><br/>
+					clavier logitech (10€) <input type="checkbox" name="souris" value="">
+					souris logitech (12€) <input type="checkbox" name="souris" value="">
+					clavier souris sans fil (35€) <input type="checkbox" name="souris" value=""><br/>
+					enceintes 5W (30€) <input type="radio" name="divers" value="enceintes">
+					tapis souris (5€) <input type="radio" name="divers" value="tapis"><br />
+					
+					Adresse email <input type="mail" name="" value="">
+				</p>
+			</form>
+		</article>
+	</section>
+	
+	<hr size=1 width="100%" >
+
+	<footer>
+		<h1><b>INFOCOM </b> le leader de la vente de matériel informatique</h1> 
+		<a href="">CGV</a>
+	</footer>
+</body>
+
+</html>

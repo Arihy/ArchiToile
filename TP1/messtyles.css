@@ -1,0 +1,39 @@
+body
+{
+	background-color: #7FFFD4;
+}
+
+nav
+{
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: right;
+	width: 95%;
+}
+
+nav li
+{
+	display: inline-block;
+}
+
+section
+{
+	margin-left: 300px;
+}
+
+
+h1
+{
+	color: red;
+}
+
+
+footer
+{
+	text-align: center;
+}
+
+header
+{
+	text-align: center;
+}
