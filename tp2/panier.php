@@ -20,10 +20,6 @@ foreach($larticle as $article=>$prix)
 		$totalArticle = $_POST[$articlePrefixe] + $_POST[$article];
 		$totalPrix = $_POST[$prixPrefixe] + $_POST[$article] * $prix;	
 	}
-}
-
-foreach($larticle as $article=>$prix)
-{
 	$articlePrefixe = $article."Quant";
 	$prixPrefixe = $article."Prix";
 	echo $article." ----- ".$prix."€ 
@@ -34,7 +30,6 @@ foreach($larticle as $article=>$prix)
 	 	<input type=\"hidden\" name=$prixPrefixe value=$totalPrix />	
 		</form><br>";
 }
-
 
 echo "vous avez ".$totalArticle." article(s) d'une valeur de ".$totalPrix;
 ?>
