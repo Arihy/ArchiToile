@@ -11,11 +11,9 @@
 
 				function __construct()
 				{
-					//$this->_nombre = array(rand(0, 9), rand(0, 9), rand(0, 9), rand(0, 9));
+					$this->_nombre = array(rand(0, 9), rand(0, 9), rand(0, 9), rand(0, 9));
 					$this->_historique = array();
 					$this->_jouer = array();
-					$this->_nombre = array(1, 2, 3, 4);
-					echo 'constructeur <br>';
 				}
 
 
