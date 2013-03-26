@@ -1,0 +1,14 @@
+[
+	{
+		"nom": "Les mots blues",
+		"image": "les_mots_rouges.jpg",
+		"lien": "Album_les_mots_rouges.json"
+	},
+
+	{
+		"nom": "Les mots rouges",
+		"image": "les_mots_rouges.jpg",
+		"lien": "Album_les_mots_rouges.json"
+	}
+
+]

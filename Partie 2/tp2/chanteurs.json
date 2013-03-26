@@ -1,0 +1,23 @@
+[
+	{
+		"nom": "Christophe",
+		"prenom_reel": "Daniel",
+		"nom_reel": "Bevilacqua",
+		"lien": "albums_christophe.json",
+		"image": "IMAGES/christophe.jpg"
+	},
+	{
+		"nom": "Roussos",
+		"prenom_reel": "Denis",
+		"nom_reel": "R",
+		"lien": "albums_roussos.json",
+		"image": "IMAGES/roussos.jpg"
+	},
+	{
+		"nom": "Shuman",
+		"prenom_reel": "Mort",
+		"nom_reel": "S",
+		"lien": "albums_shuman.json",
+		"image": "IMAGES/shuman.jpg"
+	}
+]
