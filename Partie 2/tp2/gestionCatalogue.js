@@ -12,17 +12,17 @@ $().ready(function() {
 			})
 			$("img").click(function() {
 			var id = $(this).attr("id");
-			var html2 = "<ul > </ul>";
+			var html2 = "<ul id="+id+"_ul"+"> </ul>";
 			var fichier = "albums_"+id;
-			var idTmp = "."+fichier;
-			$("."+fichier).append(html2);
+			var idTmp = "#"+fichier;
+			$("#"+fichier).append(html2);
 			var idListe = id;
   		$(idListe).empty();
     	$.getJSON(fichier+'.json', function(data) {
     		$.each(data, function(entryIndex, entry) {
     			var html = "<li>"+entry['nom']+"</li>";
     			var liste = id;
-        	$(liste).append(html);
+        	$("#"+id+"_ul").append(html);
       	});
 			});
   	}
